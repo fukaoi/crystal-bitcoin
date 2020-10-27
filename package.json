@@ -1,0 +1,27 @@
+{
+  "name": "crystal-bitcoin-sdk",
+  "version": "0.1.0",
+  "description": "This module is crystal sdk for bitcoin client",
+  "main": "",
+  "scripts": {
+    "build": "bsb -make-world && cp -r lib/js/src/bitcoin/js/*.js ~/.crystal-nodejs/js/bitcoin/",
+    "test": "jest --env node --detectOpenHandles"
+  },
+  "dependencies": {
+    "@aantron/repromise": "^0.6.1",
+    "@glennsl/bs-json": "^4.0.0",
+    "bitcore-lib": "^8.8.4",
+    "bs-platform": "^5.0.6",
+    "es6-promise": "^4.2.8",
+    "refmt": "^1.13.7-1"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidum-particles/crystal-bitcoin-sdk.git"
+  },
+  "author": "fukaoi",
+  "license": "MIT"
+}

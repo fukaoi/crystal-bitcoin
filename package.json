@@ -16,7 +16,8 @@
     "refmt": "^1.13.7-1"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.4.9"
+    "@glennsl/bs-jest": "^0.4.9",
+     "ws": ">=6.2.2"
   },
   "repository": {
     "type": "git",
